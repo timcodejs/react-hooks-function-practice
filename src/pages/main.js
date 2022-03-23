@@ -3,6 +3,7 @@ import State from '../components/state/state';
 import Memo from '../components/memo/memo';
 import Callback from '../components/callback/callback';
 import Effect from '../components/effect/effect';
+import Reducer from '../components/usereducer/reducer';
 
 const Main = () => {
     return(
@@ -11,6 +12,7 @@ const Main = () => {
             <Memo />
             <Callback />
             <Effect />
+            <Reducer />
         </>
     )
 }
