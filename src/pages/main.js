@@ -4,6 +4,7 @@ import Memo from '../components/memo/memo';
 import Callback from '../components/callback/callback';
 import Effect from '../components/effect/effect';
 import Reducer from '../components/usereducer/reducer';
+import ReducerContext from '../components/contextapi/context';
 
 const Main = () => {
     return(
@@ -13,6 +14,7 @@ const Main = () => {
             <Callback />
             <Effect />
             <Reducer />
+            <ReducerContext />
         </>
     )
 }
